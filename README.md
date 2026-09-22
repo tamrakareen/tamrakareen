@@ -1,37 +1,39 @@
+# Tamra Sherwood
 
-### Hi there, I am Tamra
+**DevOps / Platform Engineer** — Franklin, TN
 
-<!--
-**tamrakareen/tamrakareen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+I build and operate production Kubernetes infrastructure at scale. Currently a Platform Engineer at Charter, where I own EKS provisioning, CI/CD, and observability across a large multi-account AWS environment.
 
-I'm a DevOps Engineer based in Franklin, TN
-
----
-
-- 🔭 I’m currently working as a contractor at Charter
-- ⚙️ Tech stack I use daily: VSCode, GitLab, AWS, Bash, Kubernetes, Terraform, Docker, Datadog, Python, Linux, Coffee
-- 💬 Ask me about my masters program in AI
-- 📫 How to reach me: [LinkedIn](https://linkedin.com/in/tamra-sherwood)
-- 😄 Pronouns: She/her
+I like turning manual toil into self-service, guard-railed automation — and I care about the reliability of the systems people depend on.
 
 ---
 
-<details><summary> Fun facts about me</summary>
-  
-      * I'm an open water swimmer (sometimes the water is 45 degrees), 
-        my last race was in Alaska
-  
-      * I play the piano
-  
-      * I once was a backpacking guide
- 
-</details>
+### What I work on
+
+- **Infrastructure as Code** — Built and maintain the Terraform platform provisioning **21 EKS clusters across 4 AWS accounts** and 4 environment tiers, driven by a layered, deep-merge configuration model.
+- **Kubernetes & service mesh** — EKS, Helm/Helmfile, Istio, Karpenter, admission controllers, ingress/egress gateways across 100+ microservices.
+- **CI/CD & developer platform** — GitLab CI/CD for 100+ services; self-service tooling that removes bottlenecks (e.g. an RBAC-gated, audited RDS query pipeline).
+- **Observability & reliability** — Led a Fluentd → Splunk OpenTelemetry Collector migration with zero permanent log loss; Datadog monitoring, alerting, and dashboards; blue/green zero-downtime deployments.
+- **Cloud security & cost** — Least-privilege cross-account IAM, WAF, secrets management; active right-sizing and scale-to-zero automation.
 
 ---
 
-### 🧰 Toolbox
+### Toolbox
 
-<img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/linux-tux.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/ubuntu-4.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/gitlab.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/kubernets.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="CSS Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/microsoft-teams-1.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/grafana.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/slack-2.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/terraform-enterprise.svg" alt="CSS Logo" width="50" height="50"/> <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="CSS Logo" width="50" height="50"/>  <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="CSS Logo" width="50" height="50"/>
+`AWS` · `Terraform` · `Kubernetes (EKS)` · `Helm` / `Helmfile` · `Istio` · `Karpenter`
+`Docker` · `GitLab CI/CD` · `ArgoCD` · `Datadog` · `Splunk` · `OpenTelemetry`
+`Python` · `Bash` · `Go` · `SQL` · `Linux`
 
 ---
+
+### Certifications
+
+AWS Certified DevOps Engineer – Professional · AWS Certified Cloud Practitioner · Snowflake SnowPro Core
+
+---
+
+### Connect
+
+- LinkedIn: [linkedin.com/in/tamra-sherwood](https://linkedin.com/in/tamra-sherwood)
+
+<sub>Outside of work: open-water swimmer (last race was in Alaska), pianist, former backpacking guide.</sub>
