@@ -18,6 +18,12 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 ---
 
+### Featured project
+
+**[eks-platform-terraform](https://github.com/tamrakareen/eks-platform-terraform)** — Reusable Terraform modules that provision four services across four environments (`dev → qa → stage → prod`) from a single set of modules, with CI-validated plans and release-branch-gated production. Demonstrates DRY multi-environment IaC, secure-by-default resources, cost-vs-HA trade-offs, and GitHub Actions gating.
+
+---
+
 ### Toolbox
 
 `AWS` · `Terraform` · `Kubernetes (EKS)` · `Helm` / `Helmfile` · `Istio` · `Karpenter`
