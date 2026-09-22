@@ -22,6 +22,8 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 **[eks-platform-terraform](https://github.com/tamrakareen/eks-platform-terraform)** — Reusable Terraform modules that provision four services across four environments (`dev → qa → stage → prod`) from a single set of modules, with CI-validated plans and release-branch-gated production. Demonstrates DRY multi-environment IaC, secure-by-default resources, cost-vs-HA trade-offs, and GitHub Actions gating.
 
+**[ec2-platform-terraform](https://github.com/tamrakareen/ec2-platform-terraform)** — The EC2 counterpart to the EKS platform: the same workloads built on Auto Scaling Groups + an Application Load Balancer instead of Kubernetes, with web (ALB-fronted) and worker (queue) services. Shows the EKS-vs-EC2 trade-off.
+
 **[terraform-github-actions-demo](https://github.com/tamrakareen/terraform-github-actions-demo)** — The same Terraform pipeline (fmt → init → validate → plan) implemented in both GitHub Actions and GitLab CI, side by side — a practical comparison of the two platforms' models.
 
 **[eks-helm-addons-terraform](https://github.com/tamrakareen/eks-helm-addons-terraform)** — Companion to the platform repo: installs cluster add-ons (metrics-server, cert-manager, ingress-nginx) via Terraform + Helm and bootstraps ArgoCD with the app-of-apps pattern — demonstrating the cluster-creation vs. add-ons boundary and the Terraform → GitOps handoff.
