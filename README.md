@@ -2,7 +2,7 @@
 
 **DevOps / Platform Engineer** — Franklin, TN
 
-I build and operate production Kubernetes infrastructure at scale. Currently a Platform Engineer at Charter, where I own EKS provisioning, CI/CD, and observability across a large multi-account AWS environment.
+I build and operate production Kubernetes infrastructure at scale. Currently a Devops Engineer, owning EKS provisioning, CI/CD, and observability across a large multi-account AWS environment.
 
 I like turning manual toil into self-service, guard-railed automation — and I care about the reliability of the systems people depend on.
 
