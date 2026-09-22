@@ -18,9 +18,11 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 ---
 
-### Featured project
+### Featured projects
 
 **[eks-platform-terraform](https://github.com/tamrakareen/eks-platform-terraform)** — Reusable Terraform modules that provision four services across four environments (`dev → qa → stage → prod`) from a single set of modules, with CI-validated plans and release-branch-gated production. Demonstrates DRY multi-environment IaC, secure-by-default resources, cost-vs-HA trade-offs, and GitHub Actions gating.
+
+**[terraform-github-actions-demo](https://github.com/tamrakareen/terraform-github-actions-demo)** — The same Terraform pipeline (fmt → init → validate → plan) implemented in both GitHub Actions and GitLab CI, side by side — a practical comparison of the two platforms' models.
 
 ---
 
