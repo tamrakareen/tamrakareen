@@ -28,6 +28,8 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 **[rds-query-pipeline](https://github.com/tamrakareen/rds-query-pipeline)** — Self-service database access: an Aurora PostgreSQL cluster (Terraform) plus a GitLab CI pipeline that lets developers run ad-hoc SQL with RBAC tiers, short-lived IAM-token auth (no static credentials), reader/writer endpoint enforcement, and write auditing.
 
+**[connectivity-checks](https://github.com/tamrakareen/connectivity-checks)** — A template for checking TLS endpoints across environments: reports connectivity, the full certificate chain (leaf/intermediate/root) with expiry dates, and a 90-day certificate-expiry report. Includes a self-signed local demo that proves the checker end to end.
+
 ---
 
 ### Toolbox
