@@ -26,6 +26,8 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 **[eks-helm-addons-terraform](https://github.com/tamrakareen/eks-helm-addons-terraform)** — Companion to the platform repo: installs cluster add-ons (metrics-server, cert-manager, ingress-nginx) via Terraform + Helm and bootstraps ArgoCD with the app-of-apps pattern — demonstrating the cluster-creation vs. add-ons boundary and the Terraform → GitOps handoff.
 
+**[rds-query-pipeline](https://github.com/tamrakareen/rds-query-pipeline)** — Self-service database access: an Aurora PostgreSQL cluster (Terraform) plus a GitLab CI pipeline that lets developers run ad-hoc SQL with RBAC tiers, short-lived IAM-token auth (no static credentials), reader/writer endpoint enforcement, and write auditing.
+
 ---
 
 ### Toolbox
