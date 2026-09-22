@@ -24,6 +24,8 @@ I like turning manual toil into self-service, guard-railed automation — and I 
 
 **[terraform-github-actions-demo](https://github.com/tamrakareen/terraform-github-actions-demo)** — The same Terraform pipeline (fmt → init → validate → plan) implemented in both GitHub Actions and GitLab CI, side by side — a practical comparison of the two platforms' models.
 
+**[eks-helm-addons-terraform](https://github.com/tamrakareen/eks-helm-addons-terraform)** — Companion to the platform repo: installs cluster add-ons (metrics-server, cert-manager, ingress-nginx) via Terraform + Helm and bootstraps ArgoCD with the app-of-apps pattern — demonstrating the cluster-creation vs. add-ons boundary and the Terraform → GitOps handoff.
+
 ---
 
 ### Toolbox
